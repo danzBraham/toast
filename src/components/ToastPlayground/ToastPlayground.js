@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from "../Button";
 
-import styles from "./ToastPlayground.module.css";
+import * as styles from "./ToastPlayground.module.css";
 import ToastShelf from "../ToastShelf";
 import { ToastContext } from "../ToastProvider";
 

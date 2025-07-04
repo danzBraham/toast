@@ -3,7 +3,7 @@ import { AlertOctagon, AlertTriangle, CheckCircle, Info, X } from "react-feather
 
 import VisuallyHidden from "../VisuallyHidden";
 
-import styles from "./Toast.module.css";
+import * as styles from "./Toast.module.css";
 import { ToastContext } from "../ToastProvider";
 
 const ICONS_BY_VARIANT = {
